@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27ACA7D1A17C191008C2AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACA7C1A17C191008C2AF0 /* main.m */; };
+		C27ACA801A17C191008C2AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACA7F1A17C191008C2AF0 /* AppDelegate.m */; };
+		C27ACA831A17C191008C2AF0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACA821A17C191008C2AF0 /* GameScene.m */; };
+		C27ACA851A17C191008C2AF0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C27ACA841A17C191008C2AF0 /* GameScene.sks */; };
+		C27ACA871A17C191008C2AF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27ACA861A17C191008C2AF0 /* Images.xcassets */; };
+		C27ACA8A1A17C191008C2AF0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27ACA881A17C191008C2AF0 /* MainMenu.xib */; };
+		C27ACA961A17C192008C2AF0 /* SuperDestructeurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACA951A17C192008C2AF0 /* SuperDestructeurTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27ACA901A17C192008C2AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27ACA6F1A17C191008C2AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27ACA761A17C191008C2AF0;
+			remoteInfo = SuperDestructeur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27ACA771A17C191008C2AF0 /* SuperDestructeur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperDestructeur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27ACA7B1A17C191008C2AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27ACA7C1A17C191008C2AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C27ACA7E1A17C191008C2AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C27ACA7F1A17C191008C2AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C27ACA811A17C191008C2AF0 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C27ACA821A17C191008C2AF0 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		C27ACA841A17C191008C2AF0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C27ACA861A17C191008C2AF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C27ACA891A17C191008C2AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C27ACA8F1A17C192008C2AF0 /* SuperDestructeurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperDestructeurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27ACA941A17C192008C2AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27ACA951A17C192008C2AF0 /* SuperDestructeurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperDestructeurTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27ACA741A17C191008C2AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27ACA8C1A17C192008C2AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27ACA6E1A17C191008C2AF0 = {
+			isa = PBXGroup;
+			children = (
+				C27ACA791A17C191008C2AF0 /* SuperDestructeur */,
+				C27ACA921A17C192008C2AF0 /* SuperDestructeurTests */,
+				C27ACA781A17C191008C2AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27ACA781A17C191008C2AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27ACA771A17C191008C2AF0 /* SuperDestructeur.app */,
+				C27ACA8F1A17C192008C2AF0 /* SuperDestructeurTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27ACA791A17C191008C2AF0 /* SuperDestructeur */ = {
+			isa = PBXGroup;
+			children = (
+				C27ACA7E1A17C191008C2AF0 /* AppDelegate.h */,
+				C27ACA7F1A17C191008C2AF0 /* AppDelegate.m */,
+				C27ACA811A17C191008C2AF0 /* GameScene.h */,
+				C27ACA821A17C191008C2AF0 /* GameScene.m */,
+				C27ACA841A17C191008C2AF0 /* GameScene.sks */,
+				C27ACA861A17C191008C2AF0 /* Images.xcassets */,
+				C27ACA881A17C191008C2AF0 /* MainMenu.xib */,
+				C27ACA7A1A17C191008C2AF0 /* Supporting Files */,
+			);
+			path = SuperDestructeur;
+			sourceTree = "<group>";
+		};
+		C27ACA7A1A17C191008C2AF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27ACA7B1A17C191008C2AF0 /* Info.plist */,
+				C27ACA7C1A17C191008C2AF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C27ACA921A17C192008C2AF0 /* SuperDestructeurTests */ = {
+			isa = PBXGroup;
+			children = (
+				C27ACA951A17C192008C2AF0 /* SuperDestructeurTests.m */,
+				C27ACA931A17C192008C2AF0 /* Supporting Files */,
+			);
+			path = SuperDestructeurTests;
+			sourceTree = "<group>";
+		};
+		C27ACA931A17C192008C2AF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27ACA941A17C192008C2AF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27ACA761A17C191008C2AF0 /* SuperDestructeur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27ACA991A17C192008C2AF0 /* Build configuration list for PBXNativeTarget "SuperDestructeur" */;
+			buildPhases = (
+				C27ACA731A17C191008C2AF0 /* Sources */,
+				C27ACA741A17C191008C2AF0 /* Frameworks */,
+				C27ACA751A17C191008C2AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperDestructeur;
+			productName = SuperDestructeur;
+			productReference = C27ACA771A17C191008C2AF0 /* SuperDestructeur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27ACA8E1A17C192008C2AF0 /* SuperDestructeurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27ACA9C1A17C192008C2AF0 /* Build configuration list for PBXNativeTarget "SuperDestructeurTests" */;
+			buildPhases = (
+				C27ACA8B1A17C192008C2AF0 /* Sources */,
+				C27ACA8C1A17C192008C2AF0 /* Frameworks */,
+				C27ACA8D1A17C192008C2AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27ACA911A17C192008C2AF0 /* PBXTargetDependency */,
+			);
+			name = SuperDestructeurTests;
+			productName = SuperDestructeurTests;
+			productReference = C27ACA8F1A17C192008C2AF0 /* SuperDestructeurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27ACA6F1A17C191008C2AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Salmon;
+				TargetAttributes = {
+					C27ACA761A17C191008C2AF0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C27ACA8E1A17C192008C2AF0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C27ACA761A17C191008C2AF0;
+					};
+				};
+			};
+			buildConfigurationList = C27ACA721A17C191008C2AF0 /* Build configuration list for PBXProject "SuperDestructeur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27ACA6E1A17C191008C2AF0;
+			productRefGroup = C27ACA781A17C191008C2AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27ACA761A17C191008C2AF0 /* SuperDestructeur */,
+				C27ACA8E1A17C192008C2AF0 /* SuperDestructeurTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27ACA751A17C191008C2AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27ACA851A17C191008C2AF0 /* GameScene.sks in Resources */,
+				C27ACA871A17C191008C2AF0 /* Images.xcassets in Resources */,
+				C27ACA8A1A17C191008C2AF0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27ACA8D1A17C192008C2AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27ACA731A17C191008C2AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27ACA801A17C191008C2AF0 /* AppDelegate.m in Sources */,
+				C27ACA831A17C191008C2AF0 /* GameScene.m in Sources */,
+				C27ACA7D1A17C191008C2AF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27ACA8B1A17C192008C2AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27ACA961A17C192008C2AF0 /* SuperDestructeurTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27ACA911A17C192008C2AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27ACA761A17C191008C2AF0 /* SuperDestructeur */;
+			targetProxy = C27ACA901A17C192008C2AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C27ACA881A17C191008C2AF0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27ACA891A17C191008C2AF0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C27ACA971A17C192008C2AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C27ACA981A17C192008C2AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C27ACA9A1A17C192008C2AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperDestructeur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C27ACA9B1A17C192008C2AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperDestructeur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C27ACA9D1A17C192008C2AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperDestructeurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperDestructeur.app/Contents/MacOS/SuperDestructeur";
+			};
+			name = Debug;
+		};
+		C27ACA9E1A17C192008C2AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperDestructeurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperDestructeur.app/Contents/MacOS/SuperDestructeur";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27ACA721A17C191008C2AF0 /* Build configuration list for PBXProject "SuperDestructeur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27ACA971A17C192008C2AF0 /* Debug */,
+				C27ACA981A17C192008C2AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27ACA991A17C192008C2AF0 /* Build configuration list for PBXNativeTarget "SuperDestructeur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27ACA9A1A17C192008C2AF0 /* Debug */,
+				C27ACA9B1A17C192008C2AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C27ACA9C1A17C192008C2AF0 /* Build configuration list for PBXNativeTarget "SuperDestructeurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27ACA9D1A17C192008C2AF0 /* Debug */,
+				C27ACA9E1A17C192008C2AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27ACA6F1A17C191008C2AF0 /* Project object */;
+}
