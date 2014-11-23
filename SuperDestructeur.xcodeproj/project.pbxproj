@@ -14,6 +14,7 @@
 		C27ACA871A17C191008C2AF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27ACA861A17C191008C2AF0 /* Images.xcassets */; };
 		C27ACA8A1A17C191008C2AF0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27ACA881A17C191008C2AF0 /* MainMenu.xib */; };
 		C27ACA961A17C192008C2AF0 /* SuperDestructeurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACA951A17C192008C2AF0 /* SuperDestructeurTests.m */; };
+		C2DD76CB1A180A69002C6E50 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DD76CA1A180A69002C6E50 /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C27ACA8F1A17C192008C2AF0 /* SuperDestructeurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperDestructeurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27ACA941A17C192008C2AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27ACA951A17C192008C2AF0 /* SuperDestructeurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperDestructeurTests.m; sourceTree = "<group>"; };
+		C2DD76CA1A180A69002C6E50 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2DD76CB1A180A69002C6E50 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		C27ACA6E1A17C191008C2AF0 = {
 			isa = PBXGroup;
 			children = (
+				C2DD76CA1A180A69002C6E50 /* SpriteKit.framework */,
 				C27ACA791A17C191008C2AF0 /* SuperDestructeur */,
 				C27ACA921A17C192008C2AF0 /* SuperDestructeurTests */,
 				C27ACA781A17C191008C2AF0 /* Products */,
@@ -408,6 +412,7 @@
 				C27ACA9B1A17C192008C2AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C27ACA9C1A17C192008C2AF0 /* Build configuration list for PBXNativeTarget "SuperDestructeurTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +421,7 @@
 				C27ACA9E1A17C192008C2AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
